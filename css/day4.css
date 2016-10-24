@@ -1,0 +1,77 @@
+#container {
+	margin: 50px auto;
+	background-color: #FFFFFF;
+	width: 1000px;
+	height: 900px;
+}
+
+h1 {
+	font-size: 37px;
+}
+
+#left {	
+	margin: 50px 0 0 25px;
+	width: 250px;
+	float: left;
+}
+
+#right {
+	margin: 50px 50px 50px 0;
+	width: 636px;
+	height: 848px;
+	float: right;
+}
+
+#pallet {
+	font-weight: bold;
+	font-size: 1.1em;	
+}
+
+ul {
+	list-style-type: none;	
+}
+
+li {
+	padding: 10px;
+	display: inline-block;
+}
+
+li span {
+	font-size: 1.5em;
+}
+
+.color {
+	width: 50px;
+	height: 50px;
+	border: 2px solid black;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+#red {
+	background-color: red;
+}
+
+#yellow {
+	background-color: yellow;
+}
+
+#green {
+	background-color: green;
+}
+
+#black {
+	background-color: black;
+}
+
+#blue {
+	background-color: blue;
+}
+
+.blocks {
+		width: 100px;
+		height: 100px;
+		float: right;
+		border: 3px solid black;
+		background-color: white;
+}

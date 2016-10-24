@@ -1,0 +1,100 @@
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC|Andika);
+* {
+  box-sizing: border-box;
+  outline: none;
+  font-family: "Amatic SC", cursive; }
+
+body {
+  background-color: #a6a6a6;
+  letter-spacing: 2px; }
+
+h1 {
+  color: #003399;
+  font-size: 70px; }
+
+#header {
+  font-size: 25px;
+  margin-bottom: 10px;
+  margin-left: 15px; }
+  #header nav {
+    width: 400px;
+    line-height: 40px;
+    border-bottom: 1px solid #ffffff; }
+    #header nav a {
+      text-decoration: none;
+      font-weight: bold;
+      margin: 0 10px;
+      padding: 3px 5px;
+      color: #ffffff; }
+      #header nav a:link, #header nav a:visited, #header nav a:active, #header nav a:focus {
+        text-decoration: none; }
+      #header nav a:hover {
+        background-color: #8e8e8e; }
+
+.container {
+  max-width: 1200px;
+  width: 80%;
+  padding: 0 50px;
+  margin: 0 auto; }
+
+#banner {
+  font-weight: bold;
+  text-align: center; }
+  #banner h1 {
+    color: #003399;
+    font-size: 70px; }
+  #banner h3 {
+    color: #ffffff;
+    font-size: 50px;
+    margin-top: 25px; }
+  #banner h4 {
+    color: #003399;
+    font-size: 50px;
+    margin-top: 25px; }
+
+#websites {
+  font-size: 25px;
+  color: #000000; }
+  #websites ul {
+    list-style-type: none; }
+    #websites ul li {
+      height: 35px; }
+      #websites ul li p {
+        font-weight: bold;
+        display: inline; }
+      #websites ul li a {
+        color: #ffffff; }
+        #websites ul li a:link, #websites ul li a:visited, #websites ul li a:active, #websites ul li a:focus {
+          text-decoration: none; }
+        #websites ul li a:hover {
+          background-color: #8e8e8e;
+          padding: 3px 5px; }
+
+#content {
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
+  #content h3 {
+    color: #003399;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 20px; }
+  #content p {
+    color: #000000;
+    font-size: 30px;
+    text-align: justify; }
+  #content img {
+    margin: 0 auto; }
+  #content #address {
+    text-align: center; }
+    #content #address a {
+      color: #ffffff;
+      font-size: 35px; }
+      #content #address a:link, #content #address a:visited, #content #address a:active, #content #address a:focus {
+        text-decoration: none; }
+      #content #address a:hover {
+        background-color: #8e8e8e;
+        padding: 10px 25px; }
+
+/*# sourceMappingURL=default.css.map */

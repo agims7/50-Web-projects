@@ -1,0 +1,161 @@
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC|Andika);
+
+$font-main: 'Amatic SC', cursive;
+$font-second: 'Andika', sans-serif;
+
+$font-size-huge: 70px;
+$font-size-big: 50px;
+$font-size-medium: 35px;
+$font-size-smallmedium: 30px;
+$font-size-small: 25px;
+
+$background-color: #a6a6a6;
+$font-color-1: #ffffff;
+$font-color-2: #003399;
+$font-color-3: #000000;
+$hover-color: #8e8e8e;
+
+* {
+	box-sizing: border-box;
+	outline: none;
+	font-family: $font-main;
+}
+
+body {
+	background-color: $background-color;
+	letter-spacing: 2px;
+}
+
+h1 {
+	color: $font-color-2;
+	font-size: $font-size-huge;
+}
+
+/////// Header ///////
+
+#header {
+	font-size: $font-size-small;
+	margin-bottom: 10px;
+	margin-left: 15px;
+	nav {
+		width: 400px;
+		line-height: $font-size-small + 15px;
+		border-bottom: 1px solid $font-color-1;
+		a {
+			text-decoration: none;
+			font-weight: bold;
+			margin: 0 10px;
+			padding: 3px 5px;
+			color: $font-color-1;
+			&:link,
+			&:visited,
+			&:active,
+			&:focus  {
+				text-decoration: none;
+			}
+			&:hover {
+				background-color: $hover-color;
+			}
+		}
+	}
+}
+
+///////Container ///////
+
+.container {
+	max-width: 1200px;
+	width: 80%;
+	padding: 0 50px;
+	margin: 0 auto;
+}
+
+/////// Banner ///////
+
+#banner {
+	font-weight: bold;
+	text-align: center;
+	h1 {
+		color: $font-color-2;
+		font-size: $font-size-huge;g
+	}
+	h3 {
+		color: $font-color-1;
+		font-size: $font-size-big;
+		margin-top: 25px;
+	}
+	h4 {
+		color: $font-color-2;
+		font-size: $font-size-big;
+		margin-top: 25px;
+	}
+}
+
+/////// Websites ///////
+
+#websites {
+	font-size: $font-size-small;
+	color: $font-color-3;
+	ul {
+		list-style-type: none;
+		li {
+			height: $font-size-small + 10px;
+			p {
+				font-weight: bold;
+				display: inline;
+			}
+			a {
+				color: $font-color-1;
+				&:link,
+				&:visited,
+				&:active,
+				&:focus  {
+					text-decoration: none;
+				}
+				&:hover {
+					background-color: $hover-color;
+					padding: 3px 5px;
+				}
+			}
+		}
+	}
+}
+
+/////// Content/Contact ///////
+
+#content {
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	h3 {
+		color: $font-color-2;
+		font-size: $font-size-big;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	p {
+		color: $font-color-3;
+		font-size: $font-size-smallmedium;
+		text-align: justify;
+	}
+	img {
+		margin: 0 auto;
+	}
+	#address {
+		text-align: center;
+		a {
+			color: $font-color-1;
+			font-size: $font-size-medium;
+			&:link,
+			&:visited,
+			&:active,
+			&:focus  {
+				text-decoration: none;
+			}
+			&:hover {
+				background-color: $hover-color;
+				padding: 10px 25px;
+			}
+		}
+	}
+}
